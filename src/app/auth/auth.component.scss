@@ -1,0 +1,49 @@
+.containers{
+  height: 100%;
+  width: 100%;
+  .auth-banner-container{
+    height: 100%;
+    width: 75%;
+    background-image: url("../../assets/desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .auth-form{
+    height: 100%;
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
+    .auth-form-container{
+      height: 80%;
+      width: 100%;
+      .heading{
+        font-size: 30px;
+        font-weight: 400;
+      }
+      .auth-form-group{
+        width: 100%;
+        .remember-me{
+          font-size: 18px;
+          padding-bottom: 7px;
+          font-weight: 200;
+        }
+        .btn-google{
+          width: 50%;
+          background: #ff3131;
+          color: white;
+        }
+        .btn-facebook{
+          width: 50%;
+          background: #3b5998;
+          color: white;
+        }
+        span{
+          color: deepskyblue;
+        }
+        .auth-question{
+          color: black;
+        }
+      }
+    }
+  }
+}
